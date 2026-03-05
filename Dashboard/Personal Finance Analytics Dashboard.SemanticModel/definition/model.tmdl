@@ -10,9 +10,12 @@ annotation __PBI_TimeIntelligenceEnabled = 1
 
 annotation PBI_ProTooling = ["DevMode"]
 
-annotation PBI_QueryOrder = ["FinData"]
+annotation PBI_QueryOrder = ["FinData","Key Measures"]
 
 ref table FinData
+ref table DateTableTemplate_dbe1d309-5040-48c6-8c72-7f57a0ad2a1a
+ref table LocalDateTable_f95503ea-e67a-4f59-bbae-2540fd353c0c
+ref table 'Key Measures'
 
 ref cultureInfo en-US
 

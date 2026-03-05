@@ -1,0 +1,106 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.5.0/schema.json",
+  "name": "a5186322950c855aa02b",
+  "position": {
+    "x": 0,
+    "y": 436.84177770233953,
+    "z": 6,
+    "height": 282.73048742538685,
+    "width": 472.76245438343375
+  },
+  "visual": {
+    "visualType": "donutChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "FinData"
+                    }
+                  },
+                  "Property": "Component"
+                }
+              },
+              "queryRef": "FinData.Component",
+              "nativeQueryRef": "Component",
+              "active": true
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Key Measures"
+                    }
+                  },
+                  "Property": "Expense"
+                }
+              },
+              "queryRef": "Key Measures.Expense",
+              "nativeQueryRef": "Expense"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Key Measures"
+                  }
+                },
+                "Property": "Expense"
+              }
+            },
+            "direction": "Descending"
+          }
+        ],
+        "isDefaultSort": true
+      }
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "58c55a564db68c070910",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "FinData"
+              }
+            },
+            "Property": "Component"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "43bf994649b76049554a",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Key Measures"
+              }
+            },
+            "Property": "Expense"
+          }
+        },
+        "type": "Advanced"
+      }
+    ]
+  }
+}

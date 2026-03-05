@@ -1,0 +1,191 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.5.0/schema.json",
+  "name": "2c3c27a72d5190919c05",
+  "position": {
+    "x": 0,
+    "y": 159.9049478061614,
+    "z": 10,
+    "height": 235.22249568587512,
+    "width": 735.79450620951081,
+    "tabOrder": 2
+  },
+  "visual": {
+    "visualType": "lineChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "FinData"
+                    }
+                  },
+                  "Property": "Date"
+                }
+              },
+              "queryRef": "FinData.Date",
+              "nativeQueryRef": "Date",
+              "active": true
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Key Measures"
+                    }
+                  },
+                  "Property": "Expense%"
+                }
+              },
+              "queryRef": "Key Measures.Expense%",
+              "nativeQueryRef": "Expense%"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Key Measures"
+                    }
+                  },
+                  "Property": "Income Change MoM%"
+                }
+              },
+              "queryRef": "Key Measures.Income Change MoM%",
+              "nativeQueryRef": "Income Change MoM%"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Key Measures"
+                    }
+                  },
+                  "Property": "Savings%"
+                }
+              },
+              "queryRef": "Key Measures.Savings%",
+              "nativeQueryRef": "Savings%"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Key Measures"
+                    }
+                  },
+                  "Property": "Target%"
+                }
+              },
+              "queryRef": "Key Measures.Target%",
+              "nativeQueryRef": "Target%"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "FinData"
+                  }
+                },
+                "Property": "Date"
+              }
+            },
+            "direction": "Ascending"
+          }
+        ],
+        "isDefaultSort": true
+      }
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "c6b88d7bbd09e46d60b5",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Key Measures"
+              }
+            },
+            "Property": "Expense%"
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "b1edb9aed2cc20007054",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Key Measures"
+              }
+            },
+            "Property": "Income Change MoM%"
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "c506e7ed74958c250e88",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Key Measures"
+              }
+            },
+            "Property": "Savings%"
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "4df4311291dd79860eb8",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Key Measures"
+              }
+            },
+            "Property": "Target%"
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "571992b1b7a03ebd0abd",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "FinData"
+              }
+            },
+            "Property": "Date"
+          }
+        },
+        "type": "Categorical"
+      }
+    ]
+  }
+}

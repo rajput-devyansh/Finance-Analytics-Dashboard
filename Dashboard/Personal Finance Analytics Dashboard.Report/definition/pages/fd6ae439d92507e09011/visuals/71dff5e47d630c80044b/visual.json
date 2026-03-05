@@ -1,0 +1,151 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.5.0/schema.json",
+  "name": "71dff5e47d630c80044b",
+  "position": {
+    "x": 866.73116636962857,
+    "y": 0,
+    "z": 8,
+    "height": 149.47636425358567,
+    "width": 413.66714758550455,
+    "tabOrder": 1
+  },
+  "visual": {
+    "visualType": "pivotTable",
+    "query": {
+      "queryState": {
+        "Columns": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "FinData"
+                    }
+                  },
+                  "Property": "Year"
+                }
+              },
+              "queryRef": "FinData.Year",
+              "nativeQueryRef": "Year",
+              "active": true
+            }
+          ]
+        },
+        "Rows": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "FinData"
+                    }
+                  },
+                  "Property": "Type"
+                }
+              },
+              "queryRef": "FinData.Type",
+              "nativeQueryRef": "Type",
+              "active": true
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "FinData"
+                    }
+                  },
+                  "Property": "Component"
+                }
+              },
+              "queryRef": "FinData.Component",
+              "nativeQueryRef": "Component",
+              "active": false
+            }
+          ]
+        },
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Key Measures"
+                    }
+                  },
+                  "Property": "Total Value"
+                }
+              },
+              "queryRef": "Key Measures.Total Value",
+              "nativeQueryRef": "Total Value"
+            }
+          ]
+        }
+      }
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "4e652c2dac8d3172a55c",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Key Measures"
+              }
+            },
+            "Property": "Total Value"
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "f2e5c5b70770c2cebeb6",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "FinData"
+              }
+            },
+            "Property": "Type"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "c0efab93d8c21691c80a",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "FinData"
+              }
+            },
+            "Property": "Component"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "9deae2aa868a1c68cd46",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "FinData"
+              }
+            },
+            "Property": "Year"
+          }
+        },
+        "type": "Categorical"
+      }
+    ]
+  }
+}

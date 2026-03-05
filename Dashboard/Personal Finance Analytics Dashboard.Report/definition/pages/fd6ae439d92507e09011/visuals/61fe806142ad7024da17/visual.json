@@ -1,0 +1,106 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.5.0/schema.json",
+  "name": "61fe806142ad7024da17",
+  "position": {
+    "x": 472.76245438343375,
+    "y": 436.84177770233953,
+    "z": 7,
+    "height": 282.73048742538685,
+    "width": 472.76245438343375
+  },
+  "visual": {
+    "visualType": "donutChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "FinData"
+                    }
+                  },
+                  "Property": "Component"
+                }
+              },
+              "queryRef": "FinData.Component",
+              "nativeQueryRef": "Component",
+              "active": true
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Key Measures"
+                    }
+                  },
+                  "Property": "Savings"
+                }
+              },
+              "queryRef": "Key Measures.Savings",
+              "nativeQueryRef": "Savings"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Key Measures"
+                  }
+                },
+                "Property": "Savings"
+              }
+            },
+            "direction": "Descending"
+          }
+        ],
+        "isDefaultSort": true
+      }
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "062ae7760a158831db73",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "FinData"
+              }
+            },
+            "Property": "Component"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "9c033496750468807d36",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Key Measures"
+              }
+            },
+            "Property": "Savings"
+          }
+        },
+        "type": "Advanced"
+      }
+    ]
+  }
+}

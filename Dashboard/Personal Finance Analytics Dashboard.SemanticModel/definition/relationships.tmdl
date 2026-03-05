@@ -1,0 +1,5 @@
+relationship 773b19f6-b062-4486-95bd-da38be9310b3
+	joinOnDateBehavior: datePartOnly
+	fromColumn: FinData.Date
+	toColumn: LocalDateTable_f95503ea-e67a-4f59-bbae-2540fd353c0c.Date
+

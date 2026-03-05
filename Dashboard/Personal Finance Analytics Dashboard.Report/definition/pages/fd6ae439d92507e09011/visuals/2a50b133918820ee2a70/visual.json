@@ -1,0 +1,129 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.5.0/schema.json",
+  "name": "2a50b133918820ee2a70",
+  "position": {
+    "x": 735.79450620951081,
+    "y": 159.9049478061614,
+    "z": 9,
+    "height": 149.47636425358567,
+    "width": 544.60380774562225
+  },
+  "visual": {
+    "visualType": "cardVisual",
+    "query": {
+      "queryState": {
+        "Data": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Key Measures"
+                    }
+                  },
+                  "Property": "Income LM"
+                }
+              },
+              "queryRef": "Key Measures.Income LM",
+              "nativeQueryRef": "Income LM"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Key Measures"
+                    }
+                  },
+                  "Property": "Income Change MoM%"
+                }
+              },
+              "queryRef": "Key Measures.Income Change MoM%",
+              "nativeQueryRef": "Income Change MoM%"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Key Measures"
+                    }
+                  },
+                  "Property": "Target%"
+                }
+              },
+              "queryRef": "Key Measures.Target%",
+              "nativeQueryRef": "Target%"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Key Measures"
+                  }
+                },
+                "Property": "Income LM"
+              }
+            },
+            "direction": "Descending"
+          }
+        ],
+        "isDefaultSort": true
+      }
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "e11e4bdd24605775e674",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Key Measures"
+              }
+            },
+            "Property": "Income LM"
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "3095fce450eccdd78db7",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Key Measures"
+              }
+            },
+            "Property": "Income Change MoM%"
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "c3008688cbc0aacdc308",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Key Measures"
+              }
+            },
+            "Property": "Target%"
+          }
+        },
+        "type": "Advanced"
+      }
+    ]
+  }
+}
