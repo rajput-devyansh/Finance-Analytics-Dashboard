@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "Personal Finance Analytics Dashboard"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "dbc8e2a4-e96e-40ed-a207-2ae864748ab3"
+  }
+}

@@ -1,0 +1,337 @@
+table FinData
+	lineageTag: b596fb14-c201-4627-bbe0-4b7a45ab7898
+
+	column Type
+		dataType: string
+		lineageTag: b4f2ae83-1553-4b19-8909-234216ea6ad6
+		summarizeBy: none
+		sourceColumn: Type
+
+		annotation SummarizationSetBy = Automatic
+
+	column Component
+		dataType: string
+		lineageTag: 0d1ebc93-7513-4dea-a6c1-dda2085bc2f0
+		summarizeBy: none
+		sourceColumn: Component
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2021-01-01
+		dataType: string
+		lineageTag: ac4dd275-d81a-4ee2-811e-3eb163dd0b8b
+		summarizeBy: none
+		sourceColumn: 2021-01-01
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2021-02-01
+		dataType: string
+		lineageTag: 6a305166-5c2c-4cee-9886-709435294671
+		summarizeBy: none
+		sourceColumn: 2021-02-01
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2021-03-01
+		dataType: string
+		lineageTag: 3ccfafd8-7baa-40b6-b4bc-a9ded8335a40
+		summarizeBy: none
+		sourceColumn: 2021-03-01
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2021-04-01
+		dataType: string
+		lineageTag: 8f17bac1-2d44-49fd-9ed4-d80ad00dfa4d
+		summarizeBy: none
+		sourceColumn: 2021-04-01
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2021-05-01
+		dataType: string
+		lineageTag: af6e708b-aa26-43d0-8a53-526d476300f7
+		summarizeBy: none
+		sourceColumn: 2021-05-01
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2021-06-01
+		dataType: string
+		lineageTag: 9cb9e27c-723e-4445-a941-bdbf6080266a
+		summarizeBy: none
+		sourceColumn: 2021-06-01
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2021-07-01
+		dataType: string
+		lineageTag: 8581e803-23cb-4904-8847-51c05ff6ed43
+		summarizeBy: none
+		sourceColumn: 2021-07-01
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2021-08-01
+		dataType: string
+		lineageTag: ba4ff773-dd08-4792-87f8-4ca74b914b9e
+		summarizeBy: none
+		sourceColumn: 2021-08-01
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2021-09-01
+		dataType: string
+		lineageTag: 6cbc014a-dcd3-40d9-a80e-836ad831c028
+		summarizeBy: none
+		sourceColumn: 2021-09-01
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2021-10-01
+		dataType: string
+		lineageTag: 6253c289-e511-4db8-b011-0f274c82692d
+		summarizeBy: none
+		sourceColumn: 2021-10-01
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2021-11-01
+		dataType: string
+		lineageTag: 4d4b0dd2-9d14-470e-8229-19bbe2f006d4
+		summarizeBy: none
+		sourceColumn: 2021-11-01
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2021-12-01
+		dataType: string
+		lineageTag: f83813ef-bf58-4406-af37-ffc58e556de2
+		summarizeBy: none
+		sourceColumn: 2021-12-01
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2022-01-01
+		dataType: string
+		lineageTag: a0634661-0c44-4af4-b247-39f2e580e02f
+		summarizeBy: none
+		sourceColumn: 2022-01-01
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2022-02-01
+		dataType: string
+		lineageTag: e5c63f0c-ec0c-4a72-87e4-e7991007ba77
+		summarizeBy: none
+		sourceColumn: 2022-02-01
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2022-03-01
+		dataType: string
+		lineageTag: 794af1f1-456f-45cb-99c2-0e9e76e74de4
+		summarizeBy: none
+		sourceColumn: 2022-03-01
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2022-04-01
+		dataType: string
+		lineageTag: 448d1dcb-a96e-441a-bb49-78c32857cc0b
+		summarizeBy: none
+		sourceColumn: 2022-04-01
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2022-05-01
+		dataType: string
+		lineageTag: 82194357-86c2-40b2-b8c9-0c9a1bbcd362
+		summarizeBy: none
+		sourceColumn: 2022-05-01
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2022-06-01
+		dataType: string
+		lineageTag: ed5777d9-61a4-4813-947c-24c65a8ab31f
+		summarizeBy: none
+		sourceColumn: 2022-06-01
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2022-07-01
+		dataType: string
+		lineageTag: e9ef756e-01f4-4024-95fe-069db69d326d
+		summarizeBy: none
+		sourceColumn: 2022-07-01
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2022-08-01
+		dataType: string
+		lineageTag: 54b88c05-4233-48aa-acc3-e35cbbea3ce5
+		summarizeBy: none
+		sourceColumn: 2022-08-01
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2022-09-01
+		dataType: string
+		lineageTag: 07bd5927-4215-4a05-90d1-75e7948bdbff
+		summarizeBy: none
+		sourceColumn: 2022-09-01
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2022-10-01
+		dataType: string
+		lineageTag: b0feda6b-f407-4dcb-9dbb-363687149821
+		summarizeBy: none
+		sourceColumn: 2022-10-01
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2022-11-01
+		dataType: string
+		lineageTag: 754a075b-6ea0-4428-a16d-b1465b710b5e
+		summarizeBy: none
+		sourceColumn: 2022-11-01
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2022-12-01
+		dataType: string
+		lineageTag: 8abd6eea-810e-4fe1-9873-d94aeb569930
+		summarizeBy: none
+		sourceColumn: 2022-12-01
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2023-01-01
+		dataType: string
+		lineageTag: 9696a6ee-3f30-45e1-a51f-85148028b3a5
+		summarizeBy: none
+		sourceColumn: 2023-01-01
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2023-02-01
+		dataType: string
+		lineageTag: eeda031e-f89a-461c-ba02-c60e21cd9e44
+		summarizeBy: none
+		sourceColumn: 2023-02-01
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2023-03-01
+		dataType: string
+		lineageTag: 73816a4e-8bcc-4928-adf5-291315b785fa
+		summarizeBy: none
+		sourceColumn: 2023-03-01
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2023-04-01
+		dataType: string
+		lineageTag: c3f8c003-468c-4dc6-bbc6-af288d00619f
+		summarizeBy: none
+		sourceColumn: 2023-04-01
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2023-05-01
+		dataType: string
+		lineageTag: 3a62befc-d401-4817-aff3-bc41a1841c45
+		summarizeBy: none
+		sourceColumn: 2023-05-01
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2023-06-01
+		dataType: string
+		lineageTag: 79c22223-c486-4a09-bde7-6e9bf55945b0
+		summarizeBy: none
+		sourceColumn: 2023-06-01
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2023-07-01
+		dataType: string
+		lineageTag: 898f6712-6c4b-4cc4-a9aa-5e818e17f077
+		summarizeBy: none
+		sourceColumn: 2023-07-01
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2023-08-01
+		dataType: string
+		lineageTag: cb65da2c-d9da-47d8-8c3f-01595d3205e3
+		summarizeBy: none
+		sourceColumn: 2023-08-01
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2023-09-01
+		dataType: string
+		lineageTag: bfb7e27e-b597-4d33-a982-983d8556733e
+		summarizeBy: none
+		sourceColumn: 2023-09-01
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2023-10-01
+		dataType: string
+		lineageTag: 675664c6-b137-4d42-bba8-aa50774ca3d4
+		summarizeBy: none
+		sourceColumn: 2023-10-01
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2023-11-01
+		dataType: string
+		lineageTag: 898e50b1-e8c0-4d45-8444-41beb895ecb5
+		summarizeBy: none
+		sourceColumn: 2023-11-01
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2023-12-01
+		dataType: string
+		lineageTag: 1fb4caf9-5530-43c4-ab35-19c0956b4665
+		summarizeBy: none
+		sourceColumn: 2023-12-01
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2024-01-01
+		dataType: string
+		lineageTag: 897b48a0-6b6d-46dc-b063-b48292ad80e0
+		summarizeBy: none
+		sourceColumn: 2024-01-01
+
+		annotation SummarizationSetBy = Automatic
+
+	column 2024-02-01
+		dataType: string
+		lineageTag: e600cf48-e7bd-4627-87f7-11cecfbdb789
+		summarizeBy: none
+		sourceColumn: 2024-02-01
+
+		annotation SummarizationSetBy = Automatic
+
+	partition FinData = m
+		mode: import
+		source =
+				let
+				    Source = Excel.Workbook(File.Contents("D:\Finance-Analytics-Dashboard\Finance Dataset.xlsx"), null, true),
+				    FinData_Sheet = Source{[Item="FinData",Kind="Sheet"]}[Data],
+				    #"Promoted Headers" = Table.PromoteHeaders(FinData_Sheet, [PromoteAllScalars=true])
+				in
+				    #"Promoted Headers"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+
